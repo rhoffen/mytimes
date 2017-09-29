@@ -1,4 +1,41 @@
 .header {
   display: flex;
-  
+  min-height: 25px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: black solid 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.title{
+  color: MediumAquaMarine;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.logobox{
+  display: flex;
+}
+
+.header-nav {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+}
+
+.header-nav li{
+  display: inline-block;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin: 0 10px;
+}
+
+.header-nav a{
+  color: black;
 }
