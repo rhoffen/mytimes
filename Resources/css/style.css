@@ -1,3 +1,5 @@
+/*header styling*/
+
 .header {
   display: flex;
   min-height: 25px;
@@ -38,4 +40,58 @@
 
 .header-nav a{
   color: black;
+}
+
+/*main container styling*/
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*first container styling*/
+.large{
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px solid black;
+}
+
+h1{
+  border: 1px solid black;
+}
+
+.phish{
+  border: 1px solid black;
+}
+
+.orcas{
+  border: 1px solid black;
+}
+
+.earth{
+  border: 1px solid black;
+}
+
+.breakfast{
+  border: 1px solid black;
+}
+
+.cameras{
+  border: 1px solid black;
+}
+/*middle column styling*/
+.medium{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 300px;
+}
+
+/*last column styling*/
+.small{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 240px;
 }
