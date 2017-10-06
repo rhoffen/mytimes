@@ -92,6 +92,9 @@ article{
   font-weight: bold;
   font-size: 30px;
   min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*large container styling*/
