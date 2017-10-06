@@ -14,22 +14,30 @@
   padding-top: 20px;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 .title{
   color: MediumAquaMarine;
   padding-top: 8px;
   padding-left: 8px;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 .logobox{
   display: flex;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 .header-nav {
   list-style: none;
   display: inline-block;
   text-align: left;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 .header-nav li{
@@ -37,10 +45,14 @@
   padding-left: 1px;
   padding-right: 1px;
   margin: 0 10px;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 .header-nav a{
   color: black;
+  /*position: fixed;
+  z-index: 1;*/
 }
 
 /*main container styling*/
@@ -169,4 +181,33 @@ article.bites h2{
   /*border-top: 1px solid black;*/
   border-bottom: 1px solid black;
   padding: 10px 0 10px 15px;
+}
+
+footer{
+  display: flex;
+  min-height: 300px;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.footer-title{
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 30px;
 }
