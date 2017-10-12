@@ -3,21 +3,16 @@ body{
   margin: 0;
 }
 
-.header {
+header {
   display: flex;
-  /*min-height: 25px;*/
   width: 100%;
   background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  /*justify-content: space-between;*/
   align-items: center;
   border-bottom: black solid 1px;
-  padding-left: 20px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 20px 30px 10px 20px;
   margin: 0;
   position: fixed;
   z-index: 1;
@@ -51,7 +46,7 @@ body{
 }
 
 /*main container styling*/
-.main-container {
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -138,8 +133,6 @@ article{
 
 #earth{
   background-image: url("../images/img-story-2.png");
-  /*width: 237.5px;*/
-
 }
 
 #cameras{
@@ -179,7 +172,6 @@ article.bites h2{
   font-size: 12px;
   color: DimGray;
   margin: 0;
-  /*border-top: 1px solid black;*/
   border-bottom: 1px solid black;
   padding: 10px 0 10px 15px;
 }

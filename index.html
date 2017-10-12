@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./Resources/css/style.css" type="text/css">
   </head>
   <body>
-    <section class="header">
+    <header>
       <div class="logobox">
         <img src="./Resources/images/img-myt-logo.jpg" alt="" class="logo">
         <p class="title">My Times</p>
@@ -19,68 +19,70 @@
           <li><a href="#">Science</a></li>
         </ul>
       </nav>
-    </section>
-
-    <section class="main-container">
-
+    </header>
+    <main>
+      <!-- Combining this into class="column large" does not work. -->
+      <!-- Left column -->
       <section class="column" class="large">
-
+        <!-- Main article -->
         <article class="phish">
           <div class="headline-box" id="main-headline">
             Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."
           </div>
           <span class="byline">MONUMENT VALLEY, AZ-</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.
         </article>
-
-      <div class="blurbs">
-
-        <div class="text-blurbs">
-          <article>
-            <h1 class="article-title">Orca Spends Vacation at Land World Puget</h1>
-            <p><span class="byline">PUGET, SO- </span>Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
-          </article>
-
-          <article>
-            <h1 class="article-title">Burger for Breakfast: How Early is too Early?</h1>
-            <p><span class="byline-mod">Mew York, MY— </span>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
-          </article>
-        </div>
-
-        <div class="pic-blurbs">
-          <article>
-            <div class="headline-box" id="earth">
-            Earth Spins Backwards for 2017
-            </div>
-          </article>
-
-          <article>
-            <div class="headline-box" id="cameras">
-            Research Shows Cameras Erase Memory
+        <!-- Headline teasers - formatted in double column -->
+        <div class="blurbs">
+          <!-- Text headlines -->
+          <div class="text-blurbs">
+            <!-- Orcas -->
+            <article>
+              <h1 class="article-title">Orca Spends Vacation at Land World Puget</h1>
+              <p><span class="byline">PUGET, SO- </span>Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+            </article>
+            <!-- Burgers -->
+            <article>
+              <h1 class="article-title">Burger for Breakfast: How Early is too Early?</h1>
+              <p><span class="byline-mod">Mew York, MY— </span>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
+            </article>
           </div>
-        </article>
-      </div>
-    </div>
+          <!-- Image headlines -->
+          <div class="pic-blurbs">
+            <!-- Earth spins backwards -->
+            <article>
+              <div class="headline-box" id="earth">
+                Earth Spins Backwards for 2017
+            </div>
+            </article>
+            <!-- Cameras steal memory -->
+            <article>
+              <div class="headline-box" id="cameras">
+                Research Shows Cameras Erase Memory
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
-
+      <!-- Middle column -->
       <section class="column" class="medium">
-
+        <!-- Action Star article -->
         <article class="actionstar">
           <h1 class="article-title">FBI Finds Action Star Guilty of False Advertising</h1>
           <p><span class = "byline">Washington DC- </span> Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis... </p>
         </article>
-
+        <!-- Cats in Control article -->
         <article class="">
           <div class="headline-box" id="cats">
             Cats in Control-Is It a Thing?
           </div>
           <p><span class="byline">Brooklyn, NY- </span> In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
         </article>
-
       </section>
-
+      <!-- Third column - New Bites section -->
       <section class="column" class="small">
+        <!-- Cookie image -->
         <img src="./Resources/images/img-news-bite.png" alt="">
-
+        <!-- News Bites "links" -->
         <article class="bites">
           <h2>News Bites</h2>
           <p class="bite">Cat Emoji Goes Viral</p> <p class="bite">Buy Youtube Views</p>
@@ -90,8 +92,8 @@
           <p class="bite">Finally a Top Secret Way You Can</p>
         </article>
       </section>
-    </section>
-
+    </main>
+    <!-- Footer section -->
     <footer>
       <div class="footer-nav">
         <div class="footer-title">
@@ -105,9 +107,8 @@
            <li><a href="#">Science</a></li>
          </ul>
       </nav>
-
       </div>
-
+      <!-- Copyright -->
       <div class="copyright">
         &copy 2016, My Times (A Division of Codecademy bite)
       </div>
